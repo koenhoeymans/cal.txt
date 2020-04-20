@@ -36,3 +36,5 @@ precede the event name.
       - 09:30-10:30 [coffee with Joe]
       - 18:30 [feed the lions]
 
+## inspiration
+- https://jeffhuang.com/productivity_text_file/

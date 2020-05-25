@@ -17,6 +17,8 @@ The date is formatted `YEAR-MONTH-DAY` and starts a new line.
 
 Dates can be ordered ascending or descending.
 
+Dates can have one or more items.
+
 ### items
 Each item is preceded with two spaces and a dash on a new line.
 

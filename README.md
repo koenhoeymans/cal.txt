@@ -15,6 +15,8 @@ The date is formatted `YEAR-MONTH-DAY` and starts a new line.
 
     2020-04-21
 
+Dates can be ordered ascending or descending.
+
 ### items
 Each item is preceded with two spaces and a dash on a new line.
 
@@ -27,6 +29,10 @@ precede the event name.
       - 09:30-10:30 [coffee with Joe]
       - 18:30 [feed the lions]
 
+A TODO item is starts with `TODO:`.
+
+      - TODO: clean bicycle chain
+
 ## example
 
     2020-01-01
@@ -37,6 +43,9 @@ precede the event name.
 
     2020-02-15
       - pick up parcel from shop
+
+    2020-03-22
+      - TODO: make doctor appointment
 
 ## inspiration
 - https://jeffhuang.com/productivity_text_file/

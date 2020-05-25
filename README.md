@@ -22,6 +22,7 @@ Dates can have one or more items.
 ### Items
 Each item is preceded with two spaces and a dash on a new line.
 
+    2020-04-21
       - bring back books to library
 
 An event is optionally named within square brackets. The optional starting and ending time

@@ -17,10 +17,10 @@ The date is formatted `YEAR-MONTH-DAY` and starts a new line.
 
 Dates can be ordered ascending or descending.
 
-Dates can have one or more items.
+Dates can have one or more components.
 
-### Items
-Each item is preceded with two spaces and a dash on a new line.
+### Components
+Each component is preceded with two spaces and a dash on a new line.
 
     2020-04-21
       - bring back books to library

@@ -53,3 +53,4 @@ A TODO item is starts with `TODO:`.
 ## Inspiration
 - https://jeffhuang.com/productivity_text_file/
 - https://github.com/TseHang/markdown-it-calendar
+- https://en.m.wikipedia.org/wiki/ICalendar

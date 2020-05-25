@@ -1,16 +1,16 @@
 # cal.txt
 a plain text calendar format
 
-## what is cal.txt?
+## What is cal.txt?
 This is my personal experiment using a plain text calendar. The rules below are
 based on how I like the visual formatting and personal experience using it.
 These rules may undergo siginificant changes in the beginning of the
 experiment.
 
-## formatting rules
+## Formatting rules
 One text file is used per calendar.
 
-### dates
+### Dates
 The date is formatted `YEAR-MONTH-DAY` and starts a new line.
 
     2020-04-21
@@ -19,7 +19,7 @@ Dates can be ordered ascending or descending.
 
 Dates can have one or more items.
 
-### items
+### Items
 Each item is preceded with two spaces and a dash on a new line.
 
       - bring back books to library
@@ -35,7 +35,7 @@ A TODO item is starts with `TODO:`.
 
       - TODO: clean bicycle chain
 
-## example
+## Example
 
     2020-01-01
       - [New Year]
@@ -49,6 +49,6 @@ A TODO item is starts with `TODO:`.
     2020-03-22
       - TODO: make doctor appointment
 
-## inspiration
+## Inspiration
 - https://jeffhuang.com/productivity_text_file/
 - https://github.com/TseHang/markdown-it-calendar

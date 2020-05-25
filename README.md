@@ -32,7 +32,7 @@ precede the event name.
       - 09:30-10:30 [coffee with Joe]
       - 18:30 [feed the lions]
 
-A TODO item is starts with `TODO:`.
+A TODO item starts with `TODO:`.
 
       - TODO: clean bicycle chain
 

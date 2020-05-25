@@ -8,7 +8,7 @@ These rules may undergo siginificant changes in the beginning of the
 experiment.
 
 ## formatting rules
-One text file is used.
+One text file is used per calendar.
 
 ### dates
 The date is formatted `YEAR-MONTH-DAY` and starts a new line.

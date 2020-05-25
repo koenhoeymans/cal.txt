@@ -22,7 +22,7 @@ Each item is preceded with two spaces and a dash on a new line.
 
       - bring back books to library
 
-An event is named within square brackets. The optional starting and ending time
+An event is optionally named within square brackets. The optional starting and ending time
 precede the event name.
 
       - [anniversary Parker]

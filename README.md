@@ -25,13 +25,23 @@ Each component is preceded with two spaces and a dash on a new line.
     2020-04-21
       - bring back books to library
 
-An event is optionally named within square brackets. The optional starting and ending time
-precede the event name.
+#### Events
+The event summary follows the dash.
 
-      - [anniversary Parker]
-      - 09:30-10:30 [coffee with Joe]
-      - 18:30 [feed the lions]
+      - anniversary Parker
 
+The optional starting and ending time precede the event summary.
+
+      - 09:30-10:30 coffee with Joe
+      - 18:30 feed the lions
+
+A description can be given on the lines following the event summary.
+
+      - meeting with Kyle
+        Kyle wants to talk about a simpler calendar specification.
+        Peter might jump in.
+
+#### TODO items
 A TODO item starts with `TODO:`.
 
       - TODO: clean bicycle chain
@@ -39,13 +49,14 @@ A TODO item starts with `TODO:`.
 ## Example
 
     2020-01-01
-      - [New Year]
+      - New Year
 
     2020-01-02
-      - 13:30 [visit grandma]
+      - 13:30 visit grandma
 
     2020-02-15
       - pick up parcel from shop
+        Parcel shop opening hours were recently changed.
 
     2020-03-22
       - TODO: make doctor appointment

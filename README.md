@@ -7,6 +7,16 @@ based on how I like the visual formatting and personal experience using it.
 These rules may undergo siginificant changes in the beginning of the
 experiment.
 
+## Rationale
+
+Automatic backups of calendar files aren't easy. Many programs allow manual
+backups or automatic backups if you use their ecosystem only. A plain text file
+is easy to integrate in a backup system.
+
+Plain text files are future-proof and can be edited easily.
+
+An easily readable format allows for editing and reading with any tool that can handle text files.
+
 ## Formatting rules
 One text file is used per calendar.
 

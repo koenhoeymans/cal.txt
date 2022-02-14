@@ -1,0 +1,10 @@
+2022-01-01
+  - starting a new year
+2022-01-02 sun
+  - 1000 run tests
+2022-01-03 mon
+  - 1200-1300 break
+2022-01-04
+  - birthday A
+  - birthday B
+

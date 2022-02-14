@@ -1,0 +1,21 @@
+{
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.*"
+    },
+    "autoload": {
+        "psr-4": { "Caltxt\\": ["src/", "tests/unit", "tests/e2e", "tests/support"] }
+    },
+    "config": {
+    "optimize-autoloader": true,
+    "preferred-install": {
+        "*": "dist"
+    },
+    "sort-packages": true,
+    "disable-tls": true, 
+    "secure-http": false
+    }
+}
+

@@ -6,14 +6,16 @@ use Prophecy\PhpUnit\ProphecyTrait;
 
 class ConverterTest extends \PHPUnit\Framework\TestCase
 {
+    use ProphecyTrait;
+
     private Converter $converter;
 
     private $parser;
 
     public function setup(): void
     {
-        $this->converter = new Converter();
         $this->parser = $this->prophesize(CaltxtParser::class);
+        $this->converter = new Converter($this->parser->reveal());
     }
 
     /**
@@ -21,11 +23,12 @@ class ConverterTest extends \PHPUnit\Framework\TestCase
      */
     public function it_takes_an_input_file(): void
     {
-        $caltxtFile = '';
-        $outputLocation = '';
-        $contents = '';
+        $caltxtFile = 'cal.txt';
+        $outputLocation = 'cal.ics';
+        $contents = 'foo';
 
         $this->converter->convert($caltxtFile, $outputLocation);
+
         $this->parser->parse($contents)->shouldHaveBeenCalled();
     }
 

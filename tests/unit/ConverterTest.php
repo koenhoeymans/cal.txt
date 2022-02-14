@@ -19,7 +19,7 @@ class ConverterTest extends \PHPUnit\Framework\TestCase
     /**
      * @test
      */
-    public function it_parses_a_file(): void
+    public function it_takes_an_input_file(): void
     {
         $caltxtFile = '';
         $outputLocation = '';
@@ -27,6 +27,22 @@ class ConverterTest extends \PHPUnit\Framework\TestCase
 
         $this->converter->convert($caltxtFile, $outputLocation);
         $this->parser->parse($contents)->shouldHaveBeenCalled();
+    }
+
+    /**
+     * @test
+     */
+    public function it_parses_the_input_files_content_to_iCalendar(): void
+    {
+        $this->markTestIncomplete();
+    }
+
+    /**
+     * @test
+     */
+    public function it_writes_iCalendar_to_ics_file(): void
+    {
+        $this->markTestIncomplete();
     }
 }
 

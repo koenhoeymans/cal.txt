@@ -10,16 +10,20 @@ namespace Caltxt;
  */
 class Converter
 {
-    private CaltxtParser $parser;
+    private Parser $parser;
 
-    public function __construct(CaltxtParser $parser)
+    private IO $io;
+
+    public function __construct(Parser $parser, IO $io)
     {
         $this->parser = $parser;
+        $this->io = $io;
     }
 
     public function convert(string $sourceFile, string $targetFile): void
     {
-        $data = 'foo';
-        $iCalData = $this->parser->parse($data);
+        $caltxt = $this->io->read($sourceFile);
+        $iCalData = $this->parser->parse($caltxt);
+        $this->io->write($iCalData, $targetFile);
     }
 }

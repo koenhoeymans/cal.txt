@@ -2,13 +2,9 @@
 
 namespace Caltxt;
 
-class IO
+interface IO
 {
-    public function read(): string
-    {
-    }
+    public function read(): string;
 
-    public function write(): void
-    {
-    }
+    public function write(): void;
 }

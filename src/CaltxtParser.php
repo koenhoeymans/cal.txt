@@ -2,7 +2,7 @@
 
 namespace Caltxt;
 
-class CaltxtParser
+class CaltxtParser implements parser
 {
     public function parse(string $caltxt): string
     {

@@ -4,7 +4,13 @@ namespace Caltxt;
 
 interface IO
 {
-    public function read(): string;
+    /**
+     * Reads the contents of a file.
+     */
+    public function read(string $file): string;
 
-    public function write(): void;
+    /**
+     * Writes the contents to a file
+     */
+    public function write(string $content, string $file): void;
 }

@@ -6,5 +6,6 @@ class CaltxtParser implements parser
 {
     public function parse(string $caltxt): string
     {
+        return '';
     }
 }
